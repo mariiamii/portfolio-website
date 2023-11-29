@@ -4,7 +4,7 @@ import styled from 'styled-components'
 const AboutMe = () => {
   return (
     <div>
-      <h1>About Me</h1>
+      <h1 className='subject'>About Me</h1>
       <div>
         <p>
           Hello, I'm Mari, a front-end web developer dedicated to merging analytical thinking with artistic creativity. My professional journey began in finance, where I honed my analytical skills and financial expertise. Additionally, I underwent 12 years of formal fine arts education, fostering a creative mindset that allows me to see innovative solutions in every challenge. This unique blend of analytical thinking and artistic creativity finds its true expression in my passion for front-end development. I am inspired by a deep appreciation for the transformative impact of technology on our world.

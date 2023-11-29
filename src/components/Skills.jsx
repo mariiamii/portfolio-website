@@ -4,7 +4,7 @@ import styled from 'styled-components'
 const Skills = () => {
   return (
     <div>
-      <h1>Skills</h1>
+      <h1 className='subject'>Skills</h1>
       <ul>
         <li>React</li>
         <li>JavaScript</li>
