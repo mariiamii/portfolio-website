@@ -3,7 +3,6 @@ import styled from 'styled-components';
 
 const SkillsContainer = styled.div`
   display: flex;
-  align-items: center;
   flex-direction: column;
   color: #3E6C6C;
   font-family: 'Berkshire Swash', serif;
@@ -14,19 +13,18 @@ const H1Styles = styled.h1`
   padding: 2rem;
 `;
 
-const UlStyles = styled.ul`
-  
-`;
-
 const LiStyled = styled.li`
   font-size: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 `;
 
 const Skills = () => {
   return (
     <SkillsContainer>
       <H1Styles>Skills</H1Styles>
-      <UlStyles>
+      <ul>
         <LiStyled>React</LiStyled>
         <LiStyled>JavaScript</LiStyled>
         <LiStyled>HTML</LiStyled>
@@ -37,7 +35,7 @@ const Skills = () => {
         <LiStyled>Git</LiStyled>
         <LiStyled>Responsive Web Design</LiStyled>
         <LiStyled>Design</LiStyled>
-      </UlStyles>
+      </ul>
     </SkillsContainer>
   )
 }

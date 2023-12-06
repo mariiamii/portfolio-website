@@ -3,7 +3,6 @@ import styled from 'styled-components';
 
 const AboutMeContainer = styled.div`
   display: flex;
-  align-items: center;
   flex-direction: column;
   color: #3E6C6C;
   font-family: 'Berkshire Swash', serif;
@@ -19,7 +18,8 @@ const SubAboutMeContainer = styled.div`
 `;
 
 const ImgStyles = styled.img`
-  height: auto; width: 30rem;
+  height: auto; 
+  width: 30rem;
 `;
 
 const AboutMe = () => {
