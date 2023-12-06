@@ -1,15 +1,26 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from 'react';
+import styled from 'styled-components';
+
+const NavigationContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding-top: 1rem;
+`;
+
+const LinkStyle = styled.a`
+  color: #3E6C6C;
+`;
 
 const Navigation = () => {
   return (
-    <div>
-        <a href='/components/Home'>Home</a>
-        <a href='/components/AboutMe'>About Me</a>
-        <a href='/components/Skills'>Skills</a>
-        <a href='/components/Projects'>Projects</a>
-    </div>
-  )
-}
+    <NavigationContainer>
+      <LinkStyle href='#Home'>Home</LinkStyle>
+      <LinkStyle href='#AboutMe'>About Me</LinkStyle>
+      <LinkStyle href='#Skills'>Skills</LinkStyle>
+      <LinkStyle href='#Projects'>Projects</LinkStyle>
+    </NavigationContainer>
+  );
+};
 
-export default Navigation
+export default Navigation;
